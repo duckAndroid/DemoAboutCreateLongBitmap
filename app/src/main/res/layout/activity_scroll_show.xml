@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scroll_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pythoncat.a04.activity.ScrollShowActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/aaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/a01"/>
+
+            <EditText
+                android:background="@android:color/white"
+                android:id="@+id/bbb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"/>
+
+            <ImageView
+                android:id="@+id/ccc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/a02"/>
+
+            <EditText
+                android:background="@android:color/transparent"
+                android:id="@+id/ddd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/call_phone"/>
+
+            <ImageView
+                android:id="@+id/eee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/a03"/>
+
+            <EditText
+                android:background="@android:color/white"
+                android:id="@+id/fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/open_camera"/>
+
+            <ImageView
+                android:id="@+id/ggg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/a04"/>
+
+            <EditText
+                android:id="@+id/hhh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/open_camera"/>
+
+            <ImageView
+                android:id="@+id/iii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/a05"/>
+
+            <EditText
+                android:id="@+id/jjj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number"/>
+
+            <ImageView
+                android:id="@+id/kkk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/a06"/>
+
+            <EditText
+                android:id="@+id/mmm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/open_map"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">04</string>
+    <string name="call_phone">拨打电话</string>
+    <string name="phone_number">phone number</string>
+    <string name="open_map">打开地图定位指定点</string>
+    <string name="pick_up_contact">拾取联系人</string>
+    <string name="set_alarm">设置闹铃</string>
+    <string name="set_timer">设置定时器</string>
+    <string name="set_calender">设置日历</string>
+    <string name="open_camera">打开相机</string>
+    <string name="scrollview">去scrollView</string>
+</resources>
