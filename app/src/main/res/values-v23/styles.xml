@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!--
+        statusBarColor colorPrimary colorPrimaryDark 三个同色，就实现了toolbar 与statusbar的融合
+
+        如果还要是白色的，还要加一个 windowLightStatusBar = true
+        -->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+
+        <item name="android:actionBarStyle">@style/ActionbarStyle</item>
+        <item name="android:seekBarStyle">@android:style/Widget.DeviceDefault.SeekBar</item>
+
+
+        <item name="android:windowBackground">@color/color_window_background</item>
+    </style>
+</resources>
