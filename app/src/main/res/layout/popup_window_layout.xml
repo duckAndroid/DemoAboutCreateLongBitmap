@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/border_shape">
+    <!-- for pop window we need view group's faster exist !-->
+    <LinearLayout
+        android:layout_width="117dp"
+        android:layout_height="101dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pop_btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/to_camera"
+            android:textColor="@color/item_title_color"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/item_content_color"/>
+
+        <TextView
+            android:id="@+id/pop_btn_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/to_gallery"
+            android:textColor="@color/item_title_color"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+</FrameLayout>
