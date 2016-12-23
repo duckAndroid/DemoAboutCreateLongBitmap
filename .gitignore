@@ -40,5 +40,5 @@ captures/
 *.jks
 app/libs/
 
-# project gradle.properties
-/gradle.properties
+# project gradle.properties # 去掉#号就可以忽略 gradle.properties 了
+#/gradle.properties
